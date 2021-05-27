@@ -1,13 +1,39 @@
 /* ADD styling for all of the divs in post.html to match  */
 
-#individual-post-title {
+.navigation {
+  display: flex;
+  margin-top: 20px;
+  margin-left: 18%;
+}
+.navigation a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #004186;
+  border-radius: 5px;
+  color: #004186;
+}
 
+.post-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+#individual-post-title {
+  font-size: 2em;
+  text-align: center;
+  padding: 24px 0;
 }
 
 #individual-post-date {
-
+  color: #adb5bd;
+  font-size: 12px;
+  border-top: 1px solid #f1f4f8;
+  border-bottom: 1px solid #f1f4f8;
+  padding: 24px 0px 24px 16px;
 }
 
 #individual-post-content {
-
+  padding: 24px 16px 0 16px;
+  line-height: 1.4;
 }
