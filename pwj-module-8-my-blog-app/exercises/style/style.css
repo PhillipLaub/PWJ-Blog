@@ -61,7 +61,6 @@ header::after {
 }
 
 .main-container {
-  display: flex;
   max-width: 1050px;
   min-width: 800px;
   width: 100%;
@@ -99,7 +98,6 @@ footer {
 
 .post-image {
   flex-basis: 40%;
-  background-image: url("https://images.unsplash.com/photo-1581291518857-4e27b48ff24e?ixid=MnwxMjA3fDF8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
   background-position: center;
 }
