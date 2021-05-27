@@ -1,10 +1,5 @@
 /* ADD styling for all of the divs in post.html to match  */
 
-.navigation {
-  display: flex;
-  margin-top: 20px;
-  margin-left: 18%;
-}
 .navigation a {
   text-decoration: none;
   padding: 10px 20px;
