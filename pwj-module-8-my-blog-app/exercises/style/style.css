@@ -20,8 +20,10 @@ header {
   position: relative;
 }
 
-.home-page header {
+.home-page header,
+.new-post-page header {
   background-image: url("../assets/banner.jpeg");
+  text-align: center;
 }
 
 header > * {
@@ -48,7 +50,8 @@ header::after {
   background-size: cover;
 }
 
-.profile-name {
+.profile-name,
+.title {
   font-size: 3em;
   font-weight: 600;
 }
@@ -139,6 +142,14 @@ footer {
 
 .post-link {
   text-decoration: none;
+}
+
+.navigation a {
+  text-decoration: none;
+  padding: 10px 20px;
+  border: 1px solid #004186;
+  border-radius: 5px;
+  color: #004186;
 }
 
 .nav-button.nav-post-button {
